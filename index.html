@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Preview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/output.css" />
+  </head>
+  <body>
+    <div class="bg-cream h-screen w-full flex items-center justify-center p-4">
+      <main
+        class="bg-white sm:h-[400px] sm:w-100 rounded-lg flex items-center flex-col sm:flex-row w-full"
+      >
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt=""
+          class="h-full rounded-s-lg hidden sm:block"
+        />
+        <img
+          src="./images//image-product-mobile.jpg"
+          alt=""
+          class="sm:hidden rounded-lg"
+        />
+        <div class="flex flex-col gap-5 p-7">
+          <p class="tracking-widest text-xs">PERFUME</p>
+          <h1
+            class="font-Fraunces text-3xl font-bold leading-8 text-very-dark-blue"
+          >
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p class="text-dark-grayish-blue text-sm font-medium">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL
+          </p>
+          <div class="price flex gap-4 items-center">
+            <h1 class="text-dark-cyan font-Fraunces text-3xl font-bold">
+              $149.99
+            </h1>
+            <p class="text-xs line-through text-dark-grayish-blue">$169.99</p>
+          </div>
+          <button
+            class="bg-dark-cyan text-white py-2 rounded-md text-sm font-semibold hover:opacity-80"
+          >
+            <i class="fa-solid fa-cart-shopping mr-3"></i>
+            <span>Add to Cart</span>
+          </button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
